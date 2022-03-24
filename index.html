@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,52 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/common.css">
 </head>
+
 <body>
-    <div>
-    <div> <img class="Logoimg" src="./assests/images/logo.png" alt="Logo"><br>
-        Header Div</div>
-    <div>Content Div</div>
-    <div>Footer Div</div>
+    <header>
+        <img class="Logoimg" src="./assests/images/logo.png" alt="Logo">
+        <a href="./login.html" target="_blank">Login</a>
+
+    </header>
+
+    <div id="Content-div">
+        <div>
+            <input id="search-bar" type="text" placeholder="City"><br>
+        </div>
+
+        <div id="city-cards">
+            <a href="./list.html">
+                <img class="hotelpic" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="">
+                <!-- <div class="img-description">Delhi</div> -->
+            </a>
+
+            <a href=""> <img class="hotelpic" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="">
+                <!-- <div class="img-description">Goa</div> -->
+            </a>
+
+            <a href=""><img class="hotelpic" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="">
+                <!-- <div class="img-description">Hyderabad</div> -->
+            </a>
+
+            <a href=""> <img class="hotelpic" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                    alt="">
+                <!-- <div class="img-description">Kolkata</div> -->
+            </a>
+            <br>
+            <a href="./index.html">View more >></a>
+        </div>
+        <footer>
+            <div><a href="./contact.html">Contact Us</a></div>
+            <div>
+                <a href="https://www.facebook.com"><img id="social" src="./assests/images/facebook.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com"><img id="social" src="./assests/images/instagram.png"
+                        alt="Instagram"></a>
+                <a href="https://twitter.com"><img id="social" src="./assests/images/twitter.png" alt="Twitter"></a>
+            </div>
+            <div>&copy; 2020 ROOM SEARCH PVT.LTD.</div>
+        </footer>
     </div>
 </body>
+
 </html>
