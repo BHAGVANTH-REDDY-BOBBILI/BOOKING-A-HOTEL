@@ -1,8 +1,13 @@
 .Logoimg{
-    height: 100px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
 }
 #social{
     height: 20px;
     width: 22px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
